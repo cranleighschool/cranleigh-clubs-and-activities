@@ -1,0 +1,22 @@
+{
+	"config": {
+		"preferred-install": {
+			"*": "dist"
+		}
+	},
+	"name": "fredbradley/cranleigh-clubs-and-activities",
+	"authors": [
+		{
+			"name": "Fred Bradley",
+			"email": "hello@fredbradley.co.uk"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"CranleighSchool\\CranleighClubsAndActivities\\": "src/"
+		}
+	},
+	"require": {
+		"fredbradley/wordpress-traits": "^1.0.0"
+	}
+}

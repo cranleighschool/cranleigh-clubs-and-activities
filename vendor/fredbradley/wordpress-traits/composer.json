@@ -1,0 +1,17 @@
+{
+  "name": "fredbradley/wordpress-traits",
+  "type": "library",
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Fred Bradley",
+      "email": "hello@fredbradley.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FredBradley\\WordPressTraits\\": "src"
+    }
+  },
+  "require": {}
+}

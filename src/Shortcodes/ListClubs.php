@@ -48,6 +48,8 @@ class ListClubs extends Shortcode {
 	}
 
 	private function edit_post_link( string $string ) {
-		 return '<a class="post-edit-link" href="' . get_edit_post_link( get_the_ID() ) . '">' . $string . '</a>';
+		if (get_edit_post_link(get_the_ID())) {
+			return '<a class="post-edit-link" href="' . get_edit_post_link(get_the_ID()) . '">' . $string . '</a>';
+		}
 	}
 }
